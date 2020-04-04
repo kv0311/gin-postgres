@@ -13,4 +13,5 @@ func Routes(routers *gin.Engine) {
 	publicAPI.POST("/student/add", handler.AddStudent)
 	publicAPI.DELETE("/student/delete", handler.DeleteStudent)
 	publicAPI.POST("/student/update/name", handler.UpdateName)
+	publicAPI.POST("/student/get", handler.GetStudent)
 }
